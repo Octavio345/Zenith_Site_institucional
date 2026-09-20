@@ -1,0 +1,16 @@
+export { AboutProject } from "./sections/AboutProject";
+export { Accounts } from "./sections/Accounts";
+export { AISection } from "./sections/AISection";
+export { CTASection } from "./sections/CTASection";
+export { FAQSection } from "./sections/FAQSection";
+export { InstallSection } from "./sections/InstallSection";
+export { ManagementSection } from "./sections/ManagementSection";
+export { MultispectralSection } from "./sections/MultispectralSection";
+export { OperationCenter } from "./sections/OperationCenter";
+export { PlatformPreview } from "./sections/PlatformPreview";
+export { PlantingVision } from "./sections/PlantingVision";
+export { SignatureSection } from "./sections/SignatureSection";
+export { TeamSection } from "./sections/TeamSection";
+export { TechnologySection } from "./sections/TechnologySection";
+export { ThreeDMonitor } from "./sections/ThreeDMonitor";
+export { WorkflowSection } from "./sections/WorkflowSection";
