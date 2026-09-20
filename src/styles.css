@@ -2334,14 +2334,36 @@ button:disabled {
   }
 
   .mobile-panel .language-selector {
-    display:flex;
+    display:grid;
+    width:100%;
+    margin-top:18px;
+    padding-top:18px;
+    border-top:1px solid var(--border)
+  }
+
+  .mobile-panel .language-button {
+    width:100%;
+    min-height:48px;
     justify-content:flex-start;
-    margin-top:18px
+    padding:10px 12px
+  }
+
+  .mobile-panel .language-button span {
+    display:block;
+    flex:1;
+    text-align:left
+  }
+
+  .mobile-panel .language-icon {
+    margin-left:auto
   }
 
   .mobile-panel .language-menu {
-    left:0;
-    right:auto
+    position:static;
+    width:100%;
+    min-width:0;
+    margin-top:8px;
+    box-shadow:0 8px 22px #173d2b12
   }
 
   .multispectral-intro {
